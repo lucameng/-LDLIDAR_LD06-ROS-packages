@@ -128,9 +128,9 @@ rosrun rqt_tf_tree rqt_tf_tree
 ## step 5: gmapping
 
 - new a terminal (Ctrl + Alt + T) and launch the gmapping file:
-  ``` bash
-  roslaunch gmapping test_map.launch
-  ```
+``` bash
+roslaunch gmapping test_map.launch
+```
 - the rviz visual interface should be display on the screen, click `add` and then `tf` to check the status of  `tf`, `by topic` and then `map` to build your own map!
 - you can check those coordinates and tf by doing
 ```bash
