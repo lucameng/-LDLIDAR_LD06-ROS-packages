@@ -2,7 +2,7 @@
 [ros-perception/slam_gmapping]:https://github.com/ros-perception/slam_gmapping
 
 # Fix some problems of [ldlidar_stl_ros][ldlidar_stl_ros] and make it adapted to [ros-perception/slam_mapping][ros-perception/slam_gmapping]
->- Change the **topic** published by **node** LD06 from `LiDAR/LD06`to `scan`, so as to better fit the gmapping launch file and let `slam_gmapping`subscribes the`scan`published by`LD06`.
+>- Change the **topic** published by **node**`LD06`from`LiDAR/LD06`to `scan`, so as to better fit the gmapping launch file and let `slam_gmapping`subscribes the`scan`published by`LD06`.
 >- Change the frame-id of LIDAR in `src/gmapping/launch/test_gmapping.launch`, from `/laser` to `/lidar_frame`
 >- Change the **Class** of `src/ldlidar_stl_ros/rviz/test_map.rviz`, from`rviz/RPLidarScan`to`rviz/LaserScan`
   
