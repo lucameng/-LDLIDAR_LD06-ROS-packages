@@ -23,7 +23,7 @@ $ mkdir -p ldlidar_ros_ws/src
 
 $ cd ldlidar_ros_ws/src
 
-$ git clone  https://github.com/lucameng/-LDLIDAR_LD06-ROS-packages.git
+$ git clone  https://github.com/lucameng/LDLIDAR_LD06-ROS-packages.git
 
 ```
 ## step 1: system setup
