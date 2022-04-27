@@ -64,7 +64,7 @@ $ sudo chmod 777 /dev/ttyAMA0
  </node>
 <!-- ldlidar message subscriber node -->
  <node name="ListenLD06" pkg="ldlidar_stl_ros" type="ldlidar_stl_ros_listen_node" output="screen">
-  <param name="topic_name" value="LiDAR/LD06"/>
+  <param name="topic_name" value="scan"/>
  </node>
 </launch>
 ```
