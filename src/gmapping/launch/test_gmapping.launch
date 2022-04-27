@@ -1,0 +1,11 @@
+
+<launch>
+    <!--include file="$(find ldlidar_stl_ros)/launch/ld06.launch"/-->
+    <include file="$(find gmapping)/launch/gmapping.launch"/>
+    <!--    激光雷达的坐标系-->
+    <node pkg="tf" type="static_transform_publisher" name="odom_to_base_footprint"
+          args="0 0 0 0 0 0  /odom /base_footprint  30"/>
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_lidar_frame"
+          args="0 0 0 0 0 0  /base_footprint /lidar_frame  30"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ldlidar_stl_ros)/rviz/test_map.rviz"/>
+</launch>
