@@ -10,7 +10,7 @@ Now you can customize the param yourself and try to gmap with your own lidar!
 
 
 
-# Instructions from [ldlidar_stl_ros][ldlidar_stl_ros]
+# Instructions for [ldlidar_stl_ros][ldlidar_stl_ros] and [ros-perception/slam_mapping][ros-perception/slam_gmapping]
 
 > This SDK is only applicable to the LiDAR products sold by Shenzhen LDROBOT Co., LTD. The product models are :
 > - LDROBOT LiDAR LD06
