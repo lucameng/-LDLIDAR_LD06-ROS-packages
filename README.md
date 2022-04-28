@@ -11,7 +11,7 @@
 
 
 
-# Fix some problems of [ldlidar_stl_ros][LDROBOT] and make it adapted to [slam_mapping][SLAM]
+# Modify [ldlidar_stl_ros][LDROBOT] and make it apply to [slam_mapping][SLAM]
 >- Change the **topic** published by **node**`LD06`from`LiDAR/LD06`to `scan`, so as to better fit the gmapping launch file and let `slam_gmapping`subscribes the`scan`published by`LD06`.
 >- Change the frame-id of LIDAR in `src/gmapping/launch/test_gmapping.launch`, from `/laser` to `/lidar_frame`
 >- Change the **Class** of `src/ldlidar_stl_ros/rviz/test_map.rviz`, from`rviz/RPLidarScan`to`rviz/LaserScan`
