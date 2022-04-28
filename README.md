@@ -1,7 +1,16 @@
 [LDROBOT]:https://github.com/ldrobotSensorTeam/ldlidar_stl_ros
 [SLAM]:https://github.com/ros-perception/slam_gmapping
+- [Adjustment](#fix-some-problems-of-ldlidarstlrosldrobot-and-make-it-adapted-to-slammappingslam)
+- [Instructions](#instructions-for-ldlidarstlrosldrobot-and-slammappingslam)
+  - [step 0: get LiDAR ROS Package](#step-0-get-lidar-ros-package)
+  - [step 1: system setup](#step-0-get-lidar-ros-package)
+  - [step 2: build](#step-2-build)
+  - [step 3: run](#step-3-run)
+  - [step 4: test](#step-4-test)
+  - [step 5: gmapping](#step-5-gmapping)
 
-[TOC]
+
+
 # Fix some problems of [ldlidar_stl_ros][LDROBOT] and make it adapted to [slam_mapping][SLAM]
 >- Change the **topic** published by **node**`LD06`from`LiDAR/LD06`to `scan`, so as to better fit the gmapping launch file and let `slam_gmapping`subscribes the`scan`published by`LD06`.
 >- Change the frame-id of LIDAR in `src/gmapping/launch/test_gmapping.launch`, from `/laser` to `/lidar_frame`
@@ -11,7 +20,7 @@ Now you can customize the param yourself and try to gmap with your own lidar!
 
 
 
-# Instructions for [ldlidar_stl_ros][LDROBOT] and [ros-perception/slam_mapping][SLAM]
+# Instructions for [ldlidar_stl_ros][LDROBOT] and [slam_mapping][SLAM]
 
 > This SDK is only applicable to the LiDAR products sold by Shenzhen LDROBOT Co., LTD. The product models are :
 > - LDROBOT LiDAR LD06
