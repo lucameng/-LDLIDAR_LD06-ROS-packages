@@ -7,6 +7,7 @@
 [step 4: test](#step-4:-test)
 [step 5: gmapping](#step-5:-gmapping)
 
+[TOC]
 
 # Fix some problems of [ldlidar_stl_ros][ldlidar_stl_ros] and make it adapted to [ros-perception/slam_mapping][ros-perception/slam_gmapping]
 >- Change the **topic** published by **node**`LD06`from`LiDAR/LD06`to `scan`, so as to better fit the gmapping launch file and let `slam_gmapping`subscribes the`scan`published by`LD06`.
