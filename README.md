@@ -2,10 +2,10 @@
 [ros-perception/slam_gmapping]:https://github.com/ros-perception/slam_gmapping
 [step 0: get LiDAR ROS Package](#step 0: get LiDAR ROS Package)
 [step 1: system setup](#step 1: system setup)
-[step 2: build](#step 2: build)
-[step 3: run](#step 3: run)
-[step 4: test](#step 4: test)
-[step 5: gmapping](#step 5: gmapping)
+[step 2: build](#step-2:-build)
+[step 3: run](#step-3:-run)
+[step 4: test](#step-4:-test)
+[step 5: gmapping](#step-5:-gmapping)
 
 
 # Fix some problems of [ldlidar_stl_ros][ldlidar_stl_ros] and make it adapted to [ros-perception/slam_mapping][ros-perception/slam_gmapping]
