@@ -127,6 +127,8 @@ rosrun rqt_tf_tree rqt_tf_tree
 
 ## step 5: gmapping
 
+>`test_map.launch`is the launch file of`gmapping.launch`. you can turn on`rviz`and other tools by customizing`test_map.launch`, while`gmapping.launch`are some basic parameters of lidar scan, which can be customized as well.
+
 - new a terminal (Ctrl + Alt + T) and launch the gmapping file:
 ```bash
 roslaunch gmapping test_map.launch
