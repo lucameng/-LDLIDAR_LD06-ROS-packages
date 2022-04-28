@@ -20,7 +20,7 @@ Now you can customize the param yourself and try to gmap with your own lidar!
 
 
 
-# Instructions for [ldlidar_stl_ros][LDROBOT] and [slam_mapping][SLAM]
+# Instructions
 
 > This SDK is only applicable to the LiDAR products sold by Shenzhen LDROBOT Co., LTD. The product models are :
 > - LDROBOT LiDAR LD06
