@@ -130,7 +130,7 @@ rosrun rviz rviz
 ```bash
 rostopic
 ```
-- to see if lidar are working, check the`/scan`topic by doing
+- to see if lidar is working, check the`/scan`topic by doing
 ```bash
 rostopic echo /scan
 ```
