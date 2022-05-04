@@ -146,5 +146,5 @@ roslaunch gmapping test_map.launch
 - the rviz visual interface should be display on the screen, click `add` and then `tf` to check the status of  `tf`, `by topic` and then `map` to build your own map!
 - you can check those coordinates and tf by doing
 ```bash
-rosrun rqt_graph rqt_graph
+rqt_graph
 ```
