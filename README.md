@@ -130,6 +130,10 @@ rosrun rviz rviz
 ```bash
 rostopic
 ```
+- to see if lidar are working, check the`/scan`topic by doing
+```bash
+rostopic echo /scan
+```
 - for more info between`publisher`and`subscriber`, do
 ```bash
 rosrun rqt_tf_tree rqt_tf_tree
